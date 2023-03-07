@@ -19,6 +19,12 @@ Start notebook:
 
 ### Other
 
+Install jupyter:
+`python3 -m pip install jupyter`
+
+Setup jupyter kernel (run this in env):
+`python3 -m ipykernel install --user --name=ml_env`
+
 Snapshot dependencies:  
 `pip freeze > requirements.txt`
 
